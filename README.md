@@ -1,24 +1,24 @@
 # Todo List App
 
-A simple single page webapp that acts as a todo list tracker that you can add  assignment  using ReactJS using the [Rest Countries API](https://restcountries.eu/rest/v2/all). 
+A simple single page webapp that acts as a todo list tracker using express and node.
 
 ## Link to app
-[Click Here](tbd)
+[Click Here](https://todolistapi-rlu.herokuapp.com/)
 
 ## Synopsis
 
 A simple single page webapp that acts as a todo list tracker that you can add and remove items to your todo list.
-Front end made using ReactJS.
+Front end made using simple HTML/CSS and jQuery.
 Back end made using node, express, and mongo database.
 
 ## Motivation
 
 An assignment from [The Advanced Web Developer Bootcamp
-](https://www.udemy.com/the-advanced-web-developer-bootcamp/) to implement a RESTful API (using node and express) and connecting it to a mongo database (hosted by mongolabs) and creating the front end using ReactJS.
+](https://www.udemy.com/the-advanced-web-developer-bootcamp/) to implement a RESTful API (using node and express) and connecting it to a mongo database (hosted by mongolabs).
 
 ## Installation
 
-Clone the repository and set the environment variable `TODOAPIDATABASE` to the database you wish to use. By default it will use the mongolabs database I have set up.
+Clone the repository and set the environment variable `TODOAPIDATABASE` to the database you wish to use. By default it will use the mongolabs database I have set up. Then run `node todoapi\index.js` to load the API and simple HTML/CSS version. To run the react version, run the load the API then run `npm start` in the `todosfrontend` directory.
 
 ## API Reference
 
@@ -51,4 +51,4 @@ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
 AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+SOFTWARE. 
